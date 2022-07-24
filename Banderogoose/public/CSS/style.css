@@ -1,0 +1,185 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings and text */
+h1, h2, h3, h4, h5, h6, p {
+  color: black;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.good-evening {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.orange {
+  color: orange;
+  font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.main-text {
+  width: 75%;
+}
+
+.facts-title {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  margin-top: 2rem;
+}
+
+.facts-text {
+  width: 75%;
+  margin: auto;
+}
+
+.item-title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.victory-title {
+  font-size: 3rem;
+  line-height:4.5rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.victory-text {
+  width: 60%;
+  margin: 1rem auto 0;
+}
+
+/* Main Page */
+
+.main-page {
+  padding-top: 1rem;
+  background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+  text-align: left;
+}
+
+.goose {
+  width: 500px;
+}
+
+.goose-launch {
+  background: #FF6B0A;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/* Facts about goose */
+.goose-facts {
+  padding: 7%;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.victory {
+  background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);
+  left: 95px;
+  padding: 72px 0;
+}
+
+.modal-bgd{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  background-color: rgba(60, 60, 60, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.modal-form{
+text-align: center;
+}
+
+.modal-form-container{
+  background: white;
+  padding: 3% 5%;
+  position: relative;
+}
+
+.close-btn{
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+}
+
+.modal-form-title{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: 5%;
+}
+
+.modal-form-discr{
+  line-height: 1.5rem;
+}
+
+.modal-form-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.modal-form-name{
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-name-input{
+  border: 1px solid #005bbb;
+  box-sizing: border-box;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.modal-form-button{
+  margin-top: 1.5rem;
+}
+
+.modal-active{
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 460px) {
+  .title {
+    font-size: 3rem;
+  }
+}
